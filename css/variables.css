@@ -1,0 +1,123 @@
+:root {
+  /* Colors - Light Theme */
+  --color-primary: #e91717;
+  --color-primary-light: #f99494;
+  --color-primary-dark: #a11212;
+  --color-accent: #f50909;
+  
+  --color-text-primary: #212529;
+  --color-text-secondary: #4e4e4e;
+  --color-text-tertiary: #404040;
+  
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8F9FA;
+  --color-bg-tertiary: #E9ECEF;
+  
+  --color-border: #DEE2E6;
+  --color-border-light: #E9ECEF;
+  
+  /* Shadow */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.12);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.08);
+  --shadow-xl: 0 20px 25px rgba(0,0,0,0.08);
+  
+  /* Typography */
+  --font-sans: 'Inter', sans-serif;
+  
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.4rem;
+  --font-size-base: 1.6rem;
+  --font-size-lg: 1.8rem;
+  --font-size-xl: 2rem;
+  --font-size-2xl: 2.4rem;
+  --font-size-3xl: 3rem;
+  --font-size-4xl: 3.6rem;
+  --font-size-5xl: 4.8rem;
+  
+  /* Spacing */
+  --spacing-xs: 0.4rem;
+  --spacing-sm: 0.8rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 2.4rem;
+  --spacing-xl: 3.2rem;
+  --spacing-2xl: 4.8rem;
+  --spacing-3xl: 6.4rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.2rem;
+  --radius-md: 0.4rem;
+  --radius-lg: 0.8rem;
+  --radius-xl: 1.2rem;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+  
+  /* Container */
+  --container-width: 128rem;
+  --container-padding: 2.4rem;
+  
+  /* Z-index */
+  --z-index-header: 1000;
+  --z-index-modal: 2000;
+  --z-index-tooltip: 3000;
+}
+
+/* Dark Theme Variables */
+.dark-theme {
+  --color-primary: #e91717;
+  --color-primary-light: #f99494;
+  --color-primary-dark: #a11212;
+  --color-accent: #f50909;
+  
+  --color-text-primary: #E9ECEF;
+  --color-text-secondary: #CED4DA;
+  --color-text-tertiary: #ADB5BD;
+  
+  --color-bg-primary: #121212;
+  --color-bg-secondary: #1E1E1E;
+  --color-bg-tertiary: #2C2C2C;
+  
+  --color-border: #3E3E3E;
+  --color-border-light: #2C2C2C;
+  
+  /* Shadow for dark theme */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.4);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.4);
+  --shadow-xl: 0 20px 25px rgba(0,0,0,0.4);
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  :root {
+    --container-width: 96rem;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --container-width: 72rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-width: 54rem;
+    --container-padding: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --container-width: 100%;
+    --container-padding: 1.6rem;
+    
+    --font-size-5xl: 3.6rem;
+    --font-size-4xl: 3rem;
+    --font-size-3xl: 2.4rem;
+  }
+}
