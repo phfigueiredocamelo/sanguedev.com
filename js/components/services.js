@@ -75,16 +75,18 @@ export function initServices() {
         <h3>Projetos Recentes</h3>
         
         <div class="projects-grid">
+
           <div class="project-card">
             <div class="project-image">
-              <img src="/mcp.png" alt="Projeto de E-commerce" />
+              <img src="/giveincoins.png" alt="Give in Coins" />
             </div>
             <div class="project-info">
-              <h4>MCP Server</h4>
-              <p>Desenvolvimento de servidor implementando protocolo MCP para simulação de Crédito veicular.</p>
-              <span class="project-tag">Node.js</span>
-              <span class="project-tag">n8n</span>
-              <span class="project-tag">Redis</span>
+              <h4>Give in Coins</h4>
+              <p>Plataforma que permite doações em criptomoedas via Pix, cartão de crédito e outros meios locais, com conversão automática via plataforma On-Ramp.</p>
+              <span class="project-tag">Native App</span>
+              <span class="project-tag">Donations</span>
+              <span class="project-tag">Crypto</span>
+              <span class="project-tag">On-Ramp</span>
             </div>
           </div>
           
@@ -100,6 +102,7 @@ export function initServices() {
               <span class="project-tag">Chrome Extension</span>
             </div>
           </div>
+
         </div>
       </div>
     </div>
