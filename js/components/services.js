@@ -83,7 +83,7 @@ export function initServices() {
             <div class="project-info">
               <h4>Give in Coins</h4>
               <p>Plataforma que permite doações em criptomoedas via Pix, cartão de crédito e outros meios locais, com conversão automática via plataforma On-Ramp. <br>
-              <a href="https://giveincoins.com.br" target="_blank">Visite o site</a>
+              <a href="https://giveincoins.com" target="_blank">Visite o site</a>
               </p>
               <span class="project-tag">Native App</span>
               <span class="project-tag">Donations</span>
