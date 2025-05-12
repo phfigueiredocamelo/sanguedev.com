@@ -99,6 +99,7 @@ export function initServices() {
             <div class="project-info">
               <h4>Extensão Chrome</h4>
               <p>Desenvolvimento de extensão Chrome para preenchimento automático de formulários com IA.</p>
+              <a href="https://www.preencheai.com" target="_blank">Visite o site</a>
               <span class="project-tag">JavaScript</span>
               <span class="project-tag">OpenAI</span>
               <span class="project-tag">Chrome Extension</span>
